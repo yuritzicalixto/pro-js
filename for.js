@@ -35,5 +35,23 @@ for(let suma=1; suma <=100; suma++){
 
 // 7.	Calcula el producto (factorial) de un número n (ej. n = 5).
 // 8.	Cuenta cuántos números hay entre 1 y 100 que son divisibles entre 3.
+for(let n=1; n<=100; n++){
+    if(n%3===0){
+        console.log("El numero "+n+" es divisible entre 3");
+    }
+}
 // 9.	Imprime una tabla con i y i^2 para i de 1 a 10.
 // 10.	Imprime los caracteres de un string uno por uno usando for.
+
+
+// Nivel 2 — Acumuladores y condiciones (11–20)
+// 11.	Dado un arreglo de números, calcula la suma total.
+// 12.	Dado un arreglo, calcula el promedio.
+// 13.	Encuentra el máximo de un arreglo (sin usar Math.max).
+// 14.	Encuentra el mínimo de un arreglo (sin usar Math.min).
+// 15.	Cuenta cuántos elementos del arreglo son positivos, negativos y cero.
+// 16.	Calcula la suma de los números pares dentro de un arreglo.
+// 17.	Calcula cuántas vocales hay en un string.
+// 18.	Cuenta cuántas veces aparece una letra específica (ej. 'a') en un string.
+// 19.	Dado un arreglo, crea otro con cada elemento multiplicado por 2.
+// 20.	Dado un arreglo, crea otro con sólo los elementos mayores a 10 (sin filter).
