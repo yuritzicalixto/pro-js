@@ -1,3 +1,11 @@
+// Reglas de práctica:
+// 1.	Tu código
+// 2.	Tu lógica en 3–6 líneas (qué condiciones evaluaste y por qué)
+// 3.	2–3 casos de prueba (input → output esperado)
+
+
+
+
 // Nivel 1 — Calentamiento (1–10)
 // 1.	Imprime los números del 1 al 10 con for.
 for (let num = 0; num <= 10; num++) {
