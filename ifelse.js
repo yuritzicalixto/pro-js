@@ -10,7 +10,24 @@
 // Nivel 1 — Fundamentos (1–15)
 // Enfócate en condiciones simples, if y if...else.
 // 1.	Dado un número, imprime “Positivo” si es mayor a 0; si no, imprime “No positivo”.
+let n=-6;
+
+if (n>1) {
+    console.log("Positivo");
+    
+} else {
+    console.log("No positivo");
+    
+}
 // 2.	Dado un número, imprime “Par” si es divisible entre 2; si no, “Impar”.
+let num=8;
+if (num%2===0) {
+    console.log("Par");
+    
+} else {
+    console.log("Impar");
+    
+}
 // 3.	Dada una edad, imprime “Mayor de edad” si es ≥ 18; si no, “Menor de edad”.
 // 4.	Dada una calificación (0–10), imprime “Aprobado” si es ≥ 6; si no, “Reprobado”.
 // 5.	Dada una temperatura, imprime “Frío” si es < 15; si no, “No frío”.
